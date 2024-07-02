@@ -1,0 +1,8 @@
+{
+    "credit": "Made by FalconinVoid",
+        "parent": "item/door",
+    "textures": {
+        "0": "block/crimson_door_top",
+        "1": "block/crimson_door_bottom"
+    }
+}

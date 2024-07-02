@@ -1,0 +1,8 @@
+{
+    "credit": "Made by FalconinVoid",
+        "parent": "item/door",
+    "textures": {
+        "0": "block/weathered_copper_door_top",
+        "1": "block/weathered_copper_door_bottom"
+    }
+}

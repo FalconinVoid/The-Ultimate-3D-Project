@@ -1,0 +1,65 @@
+{
+	"credit": "Made by FalconinVoid",
+	"elements": [
+		{
+			"name": "Top",
+			"from": [7, 8, 0],
+			"to": [10, 24, 16],
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [16, 0, 0, 1], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Bottom",
+			"from": [7, -8, 0],
+			"to": [10, 8, 16],
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
+				"down": {"uv": [0, 15, 16, 16], "rotation": 90, "texture": "#1"}
+			}
+		}
+    ],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1.5, -1, 2],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.75, -1, 2],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [120, 0, 0],
+			"translation": [0, 0.75, 8],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [120, 0, 0],
+			"translation": [0, 0.75, 8],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-10, -60, 10],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 22.4, 0]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
